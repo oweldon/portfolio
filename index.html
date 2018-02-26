@@ -2,26 +2,99 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio Plannin</title>
   </head>
   <body>
+    <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div class="section" id="intro">
-      <h1>Orion Weldon</h1>
-      <h1>Full Stack Web Dev</h1>
+      <img class="hero" src="./images/68_orion_hdr.jpg" alt="">
     </div>
-    <div class="section"  id="about">
-      <h1>About</h1>
+    <div class="container">
+      <div class="section"  id="about">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>About</h1>
+            <div class="summary">
+              <img class="head-shot" src="./images/head-shot.png" alt="beautiful-head-shot">
+              <p class="me-content">
+                I'm a developer with a curious soul and a passion for creativity. Drawing
+                upon a life as a craftsman and a musician to bring my unique perspective to
+                new projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="section" id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="project-pic" src="./images/street.png" alt="Street-Fighter">
+            </div>
+            <div class="project-content col-md-6">
+              <h2>Street Invaders</h2>
+              <span ><strong>What is it?:</strong></span><p>A fun take on the classic 'Space Shooter' game.</p>
+                <span><strong>Technologies Used:</strong></span><p>Javascript. jQuery.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="project-pic" src="./images/trail-tracker.png" alt="Trail-Tracker">
+            </div>
+            <div class="project-content col-md-6">
+              <h2>Trail Tracker</h2>
+              <span ><strong>What is it?:</strong></span><p>Full stack web app that helps you find nearby trails and parks with just a click on the map.</p>
+                <span><strong>Technologies Used:</strong></span><p>MongoDB. Express. React.js. Node.js.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="section" id="contact">
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="https://github.com/oweldon" target="_blank"><i class="fa fa-github-square"></i></a>
+            <p class="icon-text">Github</p>
+          </div>
+          <div class="col-sm-4">
+            <a href="https://www.linkedin.com/in/orion-weldon-1b516714b/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            <p class="icon-text">LinkedIn</p>
+          </div>
+        <div class="col-sm-4">
+          <i class="fa fa-file-text"></i>
+          <p class="icon-text">Resume</p>
+        </div>
+      </div>
+      <footer>
+        &copy Orion Weldon 2018.
+      </footer>
     </div>
-    <hr>
-    <div class="section" id="projects">
-      <h1>Projects</h1>
-    </div>
-    <hr>
-    <div class="section" id="contact">
-      <h1>Contact</h1>
-    </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
