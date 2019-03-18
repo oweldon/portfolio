@@ -4,110 +4,49 @@
     <meta charset="utf-8">
     <meta name="description" content="Orion Weldon Portfolio Site">
     <meta name="keywords" content="Orion, Weldon, Orion Weldon, Web Developer, Portfolio">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Orion Weldon</title>
   </head>
   <body>
-    <nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#intro">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="./images/resume.pdf" target="_blank" download="Orion Weldon">Resume</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <div class="section" id="intro">
-      <img class="hero" src="./images/68_orion_hdr.jpg" alt="">
-    </div>
-    <div class="container">
-      <div class="section"  id="about">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1>About</h1>
-            <div class="summary">
-              <img class="head-shot" src="./images/head-shot.png" alt="beautiful-head-shot">
-              <p class="me-content">
-                I'm a developer with a curious soul and a passion for creativity. Drawing
-                upon a life as a craftsman and a musician to bring my unique perspective to
-                new projects.
-              </p>
-            </div>
+    <main>
+      <div id="landing">
+        <div id="landing-text">
+          <div id="landing-text-inner">
+            <h1 class="typewriter">Orion Weldon</h1>
+            <h2>{ Website Development</h2>
+            <h2>&&</h2>
+            <h2>Software Engineering }</h2>
           </div>
         </div>
+        <canvas id="canvas"></canvas>
       </div>
-      <hr>
-      <div class="section" id="projects">
-        <h1>Projects</h1>
-        <div class="project-container">
-          <div class="row">
-            <div class="col-md-6">
-              <a href="https://oweldon.github.io/soundwave/" target="_blank"><img class="project-pic" src="./images/waveform.png" alt="Frequency-Analyzer"></a>
-            </div>
-            <div class="project-content col-md-6">
-              <h2>Frequency Analyzer</h2>
-              <span ><strong>What is it?:</strong></span><p>Geometric manipulation based on audio volumes and
-                singling out specific frequencies<p>
-                <span><strong>Technologies Used:</strong></span><p>Javascript. P5.js Sound Libraries</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <a href="https://oweldon.github.io/weather-quest/" target="_blank"><img class="project-pic" src="./images/weather.png" alt="Weather-Quest"></a>
-            </div>
-            <div class="project-content col-md-6">
-              <h2>Weather Quest</h2>
-              <span ><strong>What is it?:</strong></span><p>A smooth react App to look up weather conditions around the world. With a fun theme.</p>
-                <span><strong>Technologies Used:</strong></span><p>React.js. Node.js.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <a href="https://trail-tracker.herokuapp.com/" target="_blank"><img class="project-pic" src="./images/trail-tracker.png" alt="Trail-Tracker"></a>
-            </div>
-            <div class="project-content col-md-6">
-              <h2>Trail Tracker</h2>
-              <span ><strong>What is it?:</strong></span><p>Full stack web app that helps you find nearby trails and parks with just a click on the map.</p>
-                <span><strong>Technologies Used:</strong></span><p>PostgreSQL. Express. Node.js.</p>
-            </div>
-          </div>
-        </div>
+      <div class="about">
+        <p id="about-text">
+          Hi. I'm Orion. A developer in the Pacific Northwest. I like to build awesome websites and React.JS Applications with a passion for smooth, responsive user experiences. With a previous career in driving Semi-Trucks, and almost 20 years of writing music, I feel that my life experiences and unique perspective really come through in my work and design process.
+          When I'm not writing code, you can find me with my wife. Enjoying all the mountains and forests that Washington has to offer, and preparing for the arrival of our first daughter!(May 2019)
+        </p>
+        <div id="head-shot"></div>
       </div>
-      <hr>
-      <div class="section" id="contact">
-        <div class="row">
-          <div class="col-sm-4">
-            <a href="https://github.com/oweldon" target="_blank"><i class="fa fa-github-square"></i></a>
-            <p class="icon-text">Github</p>
-          </div>
-          <div class="col-sm-4">
-            <a href="https://www.linkedin.com/in/orion-weldon-1b516714b/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-            <p class="icon-text">LinkedIn</p>
-          </div>
-        <div class="col-sm-4">
-          <a href="./images/resume.pdf" target="_blank" download="Orion Weldon"><i class="fa fa-file-text"></i></a>
-          <p class="icon-text">Resume</p>
-        </div>
+      <div>
+        <h2>Use the form below to get in touch!</h2>
       </div>
-      <footer>
-        &copy Orion Weldon 2018.
-      </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <div class="form-container" action="https://formspree.io/weldon.orion@gmail.com" method="POST">
+          <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+          <input name="email" type="text" class="feedback-input"id="email" placeholder="Email Address" />
+          <textarea name="message" type="text" class="feedback-input" id="comment" placeholder="How can I help?"></textarea>
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-blue"/>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      &copy Orion Weldon 2019.
+    </footer>
   </body>
+  <script type="text/javascript" src="./stars.js"></script>
 </html>
