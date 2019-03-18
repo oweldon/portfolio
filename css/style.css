@@ -14,7 +14,7 @@ body {
 
 #landing-text {
   display: flex;
-  height: 45vh;
+  height: 45%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -27,7 +27,7 @@ body {
 }
 
 #canvas {
-  height: 55vh;
+  height: 55%;
   width: 100%;
   margin: 0;
 }
@@ -41,9 +41,8 @@ body {
 }
 
 #about-text {
-  display: flex;
-  flex: 0 1 70vw;
-  height: 50vh;
+  width: 80%;
+  height: 100%;
   margin: 0 auto;
   line-height: 25px;
   justify-content: center;
@@ -55,11 +54,11 @@ body {
 
 #head-shot {
   background: url("../images/headshot.jpg");
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
-  flex: 0 1 30vw;
+  /* height: auto; */
+  width: 30%;
   margin: 0;
 }
 
